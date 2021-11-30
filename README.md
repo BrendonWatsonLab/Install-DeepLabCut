@@ -1,15 +1,14 @@
-# Install-DeepLabCut-on-CentOS-7
-
+# Install-DeepLabCut
 Install the latest DeepLabCut
 
 ```
-git clone https://github.com/BrendonWatsonLab/Install-DeepLabCut-on-CentOS-7.git
-mv Install-DeepLabCut-on-CentOS-7 dlc
-(cd dlc; make -j 4 2>&1 ) | tee build.log
+git clone https://github.com/BrendonWatsonLab/Install-DeepLabCut.git
+mv Install-DeepLabCut dlc
+(cd dlc; make 2>&1 ) | tee build.log
 dlc/bin/python3 -m deeplabcut
 ```
 
-#Test on the latest
+# Tested on the latest
 
 CentOS 7 as of Oct 6, 2021 
 
